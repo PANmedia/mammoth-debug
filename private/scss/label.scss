@@ -1,0 +1,49 @@
+.mammoth-debug-label {
+    padding: 1px 4px 2px;
+    color: #ffffff;
+    white-space: nowrap;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #999999;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.mammoth-debug-label:hover {
+    text-decoration: none;
+}
+
+.mammoth-debug-label-exception,
+.mammoth-debug-label-e-error,
+.mammoth-debug-label-e-parse,
+.mammoth-debug-label-e-core-error,
+.mammoth-debug-label-e-compile-error,
+.mammoth-debug-label-e-user-error,
+.mammoth-debug-label-important {
+    background-color: #e63333;
+}
+
+.mammoth-debug-label-e-warning,
+.mammoth-debug-label-e-core-warning,
+.mammoth-debug-label-e-compile-warning,
+.mammoth-debug-label-e-user-warning,
+.mammoth-debug-label-e-notice,
+.mammoth-debug-label-warning {
+    background-color: #f89406;
+}
+
+.mammoth-debug-label-e-deprecated,
+.mammoth-debug-label-e-user-deprecated,
+.mammoth-debug-label-success {
+    background-color: #468847;
+}
+
+.mammoth-debug-label-e-strict,
+.mammoth-debug-label-e-recoverable-error,
+.mammoth-debug-label-info {
+    background-color: #3a87ad;
+}
+
+.mammoth-debug-label-inverse {
+    background-color: #333333;
+}

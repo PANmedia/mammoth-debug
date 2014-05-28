@@ -1,0 +1,376 @@
+/* line 1, alert.scss */
+.mammoth-debug-alert {
+  padding: 8px;
+  margin-bottom: 18px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  color: #c09853;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 11, alert.scss */
+.mammoth-debug-alert-e-deprecated,
+.mammoth-debug-alert-e-user-deprecated,
+.mammoth-debug-alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+}
+
+/* line 19, alert.scss */
+.mammoth-debug-alert-exception,
+.mammoth-debug-alert-e-error,
+.mammoth-debug-alert-e-parse,
+.mammoth-debug-alert-e-core-error,
+.mammoth-debug-alert-e-compile-error,
+.mammoth-debug-alert-e-user-error,
+.mammoth-debug-alert-error {
+  background-color: #fedede;
+  border-color: #eed3d7;
+  color: #b94a48;
+}
+
+/* line 31, alert.scss */
+.mammoth-debug-alert-e-strict,
+.mammoth-debug-alert-e-recoverable-error,
+.mammoth-debug-alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #3a87ad;
+}
+
+/* line 1, error.scss */
+.mammoth-debug {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+/* line 7, error.scss */
+.mammoth-debug body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
+  font-size: 12px;
+  background-color: white;
+  color: #575757;
+  border: 10px solid #e63333;
+  background: -moz-linear-gradient(bottom, #f7f7f7 22%, #ffffff 61%);
+  background: -webkit-linear-gradient(bottom, #f7f7f7 22%, #ffffff 61%);
+  background: linear-gradient(to top, #f7f7f7 22%, #ffffff 61%);
+}
+
+/* line 18, error.scss */
+.mammoth-debug h1,
+.mammoth-debug h2,
+.mammoth-debug p {
+  margin: 10px 0 0 0;
+}
+
+/* line 24, error.scss */
+.mammoth-debug h1 + p {
+  margin: 0;
+}
+
+/* line 28, error.scss */
+.mammoth-debug * + h2 {
+  margin: 20px 0 0 0;
+}
+
+/* line 32, error.scss */
+.mammoth-debug p,
+.mammoth-debug label {
+  font-weight: normal;
+  color: #575757;
+}
+
+/* line 38, error.scss */
+.mammoth-debug p,
+.mammoth-debug td,
+.mammoth-debug th,
+.mammoth-debug label {
+  font-size: 12px;
+}
+
+/* line 45, error.scss */
+.mammoth-debug big {
+  font-size: 110%;
+  font-weight: normal;
+}
+
+/* line 50, error.scss */
+.mammoth-debug h1 {
+  font-size: 32px;
+  font-weight: 100;
+  color: #080808;
+  margin-bottom: 3px;
+}
+
+/* line 57, error.scss */
+.mammoth-debug h1 img {
+  margin: 0px 5px -5px 0;
+}
+
+/* line 61, error.scss */
+.mammoth-debug h2 {
+  font-size: 18px;
+  font-weight: 100;
+  color: #080808;
+  border-bottom: 1px dotted #080808;
+  padding-bottom: 1px;
+}
+
+/* line 69, error.scss */
+.mammoth-debug b {
+  font-weight: 600;
+}
+
+/* line 73, error.scss */
+.mammoth-debug hr {
+  margin: 7px 0 2px;
+  border: 0;
+  border-top: 1px dotted rgba(0, 0, 0, 0.3);
+}
+
+/* line 79, error.scss */
+.mammoth-debug-container {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 85, error.scss */
+.mammoth-debug-wrapper {
+  width: 100%;
+  overflow: auto;
+}
+
+/* line 90, error.scss */
+.mammoth-debug-limit-height {
+  max-height: 300px;
+  overflow: auto;
+}
+
+/* line 95, error.scss */
+.mammoth-debug pre {
+  margin: 10px 0 0 0;
+}
+
+/* line 98, error.scss */
+.mammoth-debug pre pre {
+  margin: 5px 7px;
+}
+
+/* line 102, error.scss */
+.mammoth-debug pre,
+.mammoth-debug code,
+.mammoth-debug td {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 12px;
+}
+
+/* line 109, error.scss */
+.mammoth-debug-path {
+  cursor: pointer;
+}
+
+/* line 113, error.scss */
+.mammoth-debug-internal {
+  color: #aaa;
+}
+
+/* line 1, geshi.scss */
+.mammoth-debug-geshi {
+  margin: 10px 0;
+  font-size: 14px;
+}
+/* line 4, geshi.scss */
+.mammoth-debug-geshi ol {
+  padding-left: 45px;
+  background: #fbfbfb;
+  font-family: "inconsolata", "droid-sans-mono", "Lucida Console", monospace;
+  background: -moz-linear-gradient(#fcfcfc, #f3f3f3);
+  background: -webkit-linear-gradient(#fcfcfc, #f3f3f3);
+  background: linear-gradient(#fcfcfc, #f3f3f3);
+  border: 1px solid #d4d4d4;
+  border-color: #e5e5e5 #d4d4d4 #bababa !important;
+  text-shadow: #fff 0 1px 0 !important;
+  border: 1px solid #D4D4D4;
+  overflow-x: auto;
+}
+/* line 14, geshi.scss */
+.mammoth-debug-geshi ol li {
+  color: #888 !important;
+  background: #fff;
+  text-shadow: #fff 0 1px 0;
+  padding-left: 10px;
+  border-left: 1px solid #D4D4D4;
+  vertical-align: top;
+}
+/* line 22, geshi.scss */
+.mammoth-debug-geshi ol li div, .mammoth-debug-geshi ol li span {
+  vertical-align: top;
+}
+/* line 25, geshi.scss */
+.mammoth-debug-geshi ol li div {
+  color: #000 !important;
+}
+/* line 28, geshi.scss */
+.mammoth-debug-geshi ol li:first-child {
+  padding-top: 10px;
+}
+/* line 31, geshi.scss */
+.mammoth-debug-geshi ol li:last-child {
+  padding-bottom: 10px;
+}
+
+/* line 1, label.scss */
+.mammoth-debug-label {
+  padding: 1px 4px 2px;
+  color: #ffffff;
+  white-space: nowrap;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #999999;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 12, label.scss */
+.mammoth-debug-label:hover {
+  text-decoration: none;
+}
+
+/* line 16, label.scss */
+.mammoth-debug-label-exception,
+.mammoth-debug-label-e-error,
+.mammoth-debug-label-e-parse,
+.mammoth-debug-label-e-core-error,
+.mammoth-debug-label-e-compile-error,
+.mammoth-debug-label-e-user-error,
+.mammoth-debug-label-important {
+  background-color: #e63333;
+}
+
+/* line 26, label.scss */
+.mammoth-debug-label-e-warning,
+.mammoth-debug-label-e-core-warning,
+.mammoth-debug-label-e-compile-warning,
+.mammoth-debug-label-e-user-warning,
+.mammoth-debug-label-e-notice,
+.mammoth-debug-label-warning {
+  background-color: #f89406;
+}
+
+/* line 35, label.scss */
+.mammoth-debug-label-e-deprecated,
+.mammoth-debug-label-e-user-deprecated,
+.mammoth-debug-label-success {
+  background-color: #468847;
+}
+
+/* line 41, label.scss */
+.mammoth-debug-label-e-strict,
+.mammoth-debug-label-e-recoverable-error,
+.mammoth-debug-label-info {
+  background-color: #3a87ad;
+}
+
+/* line 47, label.scss */
+.mammoth-debug-label-inverse {
+  background-color: #333333;
+}
+
+/* line 1, log.scss */
+.mammoth-debug-log-wrapper {
+  width: 980px;
+  max-height: 600px;
+  overflow: auto;
+}
+
+/* line 1, table.scss */
+.mammoth-debug-table {
+  margin-top: 10px;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+/* line 9, table.scss */
+.mammoth-debug-table th,
+.mammoth-debug-table td {
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+  white-space: nowrap;
+}
+
+/* line 18, table.scss */
+.mammoth-debug-table th {
+  font-weight: 600;
+  color: #080808;
+}
+
+/* line 23, table.scss */
+.mammoth-debug-table thead th {
+  vertical-align: bottom;
+}
+
+/* line 24, table.scss */
+.mammoth-debug-table thead:first-child tr th,
+.mammoth-debug-table thead:first-child tr td {
+  border-top: 0;
+}
+
+/* line 26, table.scss */
+.mammoth-debug-table tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+
+/* line 27, table.scss */
+.mammoth-debug-table-condensed th,
+.mammoth-debug-table-condensed td {
+  padding: 4px 5px;
+}
+
+/* line 29, table.scss */
+.mammoth-debug-table-bordered {
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+  *border-collapse: collapsed;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 38, table.scss */
+.mammoth-debug-table-bordered th + th,
+.mammoth-debug-table-bordered td + td,
+.mammoth-debug-table-bordered th + td,
+.mammoth-debug-table-bordered td + th {
+  border-left: 1px solid #dddddd;
+}
+
+/* line 42, table.scss */
+.mammoth-debug-table-bordered thead:first-child tr:first-child th,
+.mammoth-debug-table-bordered tbody:first-child tr:first-child th,
+.mammoth-debug-table-bordered tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+
+/* line 45, table.scss */
+.mammoth-debug-table-striped tbody tr:nth-child(odd) td,
+.mammoth-debug-table-striped tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
+/* line 47, table.scss */
+.mammoth-debug-table tbody tr:hover td,
+.mammoth-debug-table tbody tr:hover th {
+  background-color: #f5f5f5;
+}

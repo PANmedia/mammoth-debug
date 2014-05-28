@@ -1,0 +1,37 @@
+.mammoth-debug-alert {
+    padding: 8px;
+    margin-bottom: 18px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    color: #c09853;
+    @include border-radius(4px);
+}
+
+.mammoth-debug-alert-e-deprecated,
+.mammoth-debug-alert-e-user-deprecated,
+.mammoth-debug-alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+}
+
+.mammoth-debug-alert-exception,
+.mammoth-debug-alert-e-error,
+.mammoth-debug-alert-e-parse,
+.mammoth-debug-alert-e-core-error,
+.mammoth-debug-alert-e-compile-error,
+.mammoth-debug-alert-e-user-error,
+.mammoth-debug-alert-error {
+    background-color: #fedede;
+    border-color: #eed3d7;
+    color: #b94a48;
+}
+
+.mammoth-debug-alert-e-strict,
+.mammoth-debug-alert-e-recoverable-error,
+.mammoth-debug-alert-info {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #3a87ad;
+}

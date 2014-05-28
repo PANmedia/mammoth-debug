@@ -1,0 +1,36 @@
+.mammoth-debug-geshi {
+    margin: 10px 0;
+    font-size: 14px;
+    ol {
+        padding-left: 45px;
+        background: #fbfbfb;
+        font-family: "inconsolata", "droid-sans-mono", "Lucida Console", monospace;
+        @include background(linear-gradient(#fcfcfc, #f3f3f3));
+        border: 1px solid #d4d4d4;
+        border-color: #e5e5e5 #d4d4d4 #bababa !important;
+        text-shadow: #fff 0 1px 0 !important;
+        border: 1px solid #D4D4D4;
+        overflow-x: auto;
+        li {
+            color: #888 !important;
+            background: #fff;
+            text-shadow: #fff 0 1px 0;
+            padding-left: 10px;
+            border-left: 1px solid #D4D4D4;
+            vertical-align: top;
+
+            div, span {
+                vertical-align: top;
+            }
+            div {
+                color: #000 !important;
+            }
+            &:first-child {
+                padding-top: 10px;
+            }
+            &:last-child {
+                padding-bottom: 10px;
+            }
+        }
+    }
+}

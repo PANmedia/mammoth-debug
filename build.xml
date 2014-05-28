@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="Mammoth Debug" default="build">
+    <target name="build" description="Combines and compresses all CSS and JS files.">
+        <phingcall target="css" />
+        <phingcall target="js" />
+    </target>
+
+    <adhoc-task name="scss">
+        if (is_file('vendor/pan/theme/classes/ScssTask.php')) {
+            require_once 'vendor/pan/theme/classes/ScssTask.php';
+        } elseif (is_file('../../pan/theme/classes/ScssTask.php')) {
+            require_once '../../pan/theme/classes/ScssTask.php';
+        }
+    </adhoc-task>
+
+    <target name="css" description="Compile all CSS files.">
+        <scss
+            scssFile="debug.scss"
+            cssFile="${phing.dir.mammoth_debug}/public/css/debug.css"
+            dir="${phing.dir.mammoth_debug}/private/scss"
+        />
+    </target>
+
+    <target name="js" description="Compile all JS files.">
+        <exec dir="${phing.dir.mammoth_debug}" level="info" logoutput="true" command="
+            closure
+                --js private/js/debug.js
+                --js_output_file public/js/debug.min.js
+        " />
+    </target>
+
+</project>

@@ -1,0 +1,48 @@
+.mammoth-debug-table {
+    margin-top: 10px;
+    max-width:100%;
+    border-collapse:collapse;
+    border-spacing:0;
+    width:100%;
+}
+
+.mammoth-debug-table th,
+.mammoth-debug-table td {
+    padding:8px;
+    text-align:left;
+    vertical-align:top;
+    border-top:1px solid #dddddd;
+    white-space: nowrap;
+}
+
+.mammoth-debug-table th {
+    font-weight: 600;
+    color: #080808;
+}
+
+.mammoth-debug-table thead th { vertical-align:bottom; }
+.mammoth-debug-table thead:first-child tr th,
+.mammoth-debug-table thead:first-child tr td { border-top:0; }
+.mammoth-debug-table tbody + tbody { border-top:2px solid #dddddd; }
+.mammoth-debug-table-condensed th,
+.mammoth-debug-table-condensed td { padding:4px 5px; }
+.mammoth-debug-table-bordered {
+    border:1px solid #dddddd;
+    border-collapse:separate;
+    *border-collapse:collapsed;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.mammoth-debug-table-bordered th + th,
+.mammoth-debug-table-bordered td + td,
+.mammoth-debug-table-bordered th + td,
+.mammoth-debug-table-bordered td + th { border-left:1px solid #dddddd; }
+.mammoth-debug-table-bordered thead:first-child tr:first-child th,
+.mammoth-debug-table-bordered tbody:first-child tr:first-child th,
+.mammoth-debug-table-bordered tbody:first-child tr:first-child td { border-top:0; }
+.mammoth-debug-table-striped tbody tr:nth-child(odd) td,
+.mammoth-debug-table-striped tbody tr:nth-child(odd) th { background-color:#f9f9f9; }
+.mammoth-debug-table tbody tr:hover td,
+.mammoth-debug-table tbody tr:hover th { background-color:#f5f5f5; }

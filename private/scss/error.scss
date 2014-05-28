@@ -1,0 +1,115 @@
+.mammoth-debug {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.mammoth-debug body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
+    font-size: 12px;
+    background-color: white;
+    color: #575757;
+    border: 10px solid #e63333;
+    @include background(linear-gradient(bottom, rgb(247,247,247) 22%, rgb(255,255,255) 61%));
+}
+
+.mammoth-debug h1,
+.mammoth-debug h2,
+.mammoth-debug p {
+    margin: 10px 0 0 0;
+}
+
+.mammoth-debug h1 + p {
+    margin: 0;
+}
+
+.mammoth-debug * + h2 {
+    margin: 20px 0 0 0;
+}
+
+.mammoth-debug p,
+.mammoth-debug label {
+    font-weight: normal;
+    color: #575757;
+}
+
+.mammoth-debug p,
+.mammoth-debug td,
+.mammoth-debug th,
+.mammoth-debug label {
+    font-size: 12px;
+}
+
+.mammoth-debug big {
+    font-size: 110%;
+    font-weight: normal;
+}
+
+.mammoth-debug h1 {
+    font-size: 32px;
+    font-weight: 100;
+    color: #080808;
+    margin-bottom: 3px;
+}
+
+.mammoth-debug h1 img {
+    margin: 0px 5px -5px 0;
+}
+
+.mammoth-debug h2 {
+    font-size: 18px;
+    font-weight: 100;
+    color: #080808;
+    border-bottom: 1px dotted #080808;
+    padding-bottom: 1px;
+}
+
+.mammoth-debug b {
+    font-weight: 600;
+}
+
+.mammoth-debug hr {
+  margin: 7px 0 2px;
+  border: 0;
+  border-top: 1px dotted rgba(0, 0, 0, 0.3);
+}
+
+.mammoth-debug-container {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.mammoth-debug-wrapper {
+    width: 100%;
+    overflow: auto;
+}
+
+.mammoth-debug-limit-height {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.mammoth-debug pre {
+    margin: 10px 0 0 0;
+}
+.mammoth-debug pre pre {
+    margin: 5px 7px;
+}
+
+.mammoth-debug pre,
+.mammoth-debug code,
+.mammoth-debug td {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 12px;
+}
+
+.mammoth-debug-path {
+    cursor: pointer;
+}
+
+.mammoth-debug-internal {
+    color: #aaa;
+}

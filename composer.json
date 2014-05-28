@@ -1,0 +1,35 @@
+{
+    "name": "mammoth/debug",
+    "description": "Mammoth debugging and error handling module.",
+    "keywords": [
+        "debug",
+        "error",
+        "exception",
+        "handling"
+    ],
+    "homepage": "http://www.mammoth-framework.com/",
+    "type": "library",
+    "license": "AGPL-3.0",
+    "authors": [
+        {
+            "name": "David Neilsen",
+            "email": "david@panmedia.co.nz"
+        },
+        {
+            "name": "Michael Robinson",
+            "email": "michael@panmedia.co.nz"
+        }
+    ],
+    "suggest": {
+        "sunra/dbug": "ColdFusion style var dump.",
+        "raveren/kint": "Kint style var dump."
+    },
+    "autoload": {
+        "psr-0": {
+            "Mammoth": "classes/"
+        },
+        "files": [
+            "include.php"
+        ]
+    }
+}
