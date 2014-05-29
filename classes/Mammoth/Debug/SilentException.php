@@ -18,4 +18,3 @@ class SilentException extends Exception {
     }
 
 }
-

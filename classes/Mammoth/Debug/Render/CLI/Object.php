@@ -6,7 +6,6 @@
  */
 namespace Mammoth\Debug\Render\CLI;
 use Exception;
-use ReflectionClass;
 use ReflectionObject;
 
 class Object {

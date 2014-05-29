@@ -19,7 +19,7 @@ class SQL {
 
     /**
      * @see http://stackoverflow.com/a/3924147/268074
-     * @param type $sql
+     * @param  type $sql
      * @return type
      */
     public static function format($sql) {

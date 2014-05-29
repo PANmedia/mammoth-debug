@@ -106,7 +106,6 @@ class Dump {
         static::flush();
     }
 
-
     /**
      * Renders a stack trace using the default renderer, then kills execution.
      */
@@ -226,7 +225,7 @@ class Dump {
     /**
      *
      * @staticvar int $current Current count
-     * @param int $count Maximum count
+     * @param int   $count     Maximum count
      * @param mixed $object... Object/variable to dump
      */
     public static function dumpCount($count) {
@@ -243,7 +242,7 @@ class Dump {
 
     /**
      *
-     * @param type $condition
+     * @param type  $condition
      * @param mixed $object... Object/variable to dump
      */
     public static function dumpIf($condition, $object = null) {

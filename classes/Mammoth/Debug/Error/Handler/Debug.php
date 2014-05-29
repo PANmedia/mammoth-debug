@@ -5,7 +5,6 @@
  * @author David Neilsen <david@panmedia.co.nz>
  */
 namespace Mammoth\Debug\Error\Handler;
-use LogicException;
 use Mammoth;
 
 class Debug {
@@ -193,8 +192,8 @@ class Debug {
     /**
      * http://stackoverflow.com/a/4263181/268074
      *
-     * @param array $a
-     * @param array $b
+     * @param  array   $a
+     * @param  array   $b
      * @return boolean
      */
     public function arrayMatch(array &$a, array &$b) {

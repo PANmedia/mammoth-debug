@@ -30,11 +30,11 @@ class Handler {
     /**
      * Handles an error.
      *
-     * @param int $number
+     * @param int    $number
      * @param string $message
      * @param string $file
      * @param string $line
-     * @param array $context
+     * @param array  $context
      */
     public function handleError($number, $message, $file, $line, $context) {
         $this->reservedMemory = null;
@@ -82,7 +82,6 @@ class Handler {
     public function addExceptionHandler($handler) {
         $this->exceptionHandlers[] = $handler;
     }
-
 
     /**
      * Adds an exception handler to the stack.
